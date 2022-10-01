@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba( rgb(38, 230, 38));
+    background-image: url(https://i.postimg.cc/d1wbSFTT/Servicesbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner .content{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.banner .content .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(30, 255, 0, 0);
+    margin: auto;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    left: 10px;
+}
+.logo img{
+    cursor: pointer;
+    height: 100%;
+    width: 40%;
+    margin-top: 1vh;
+    margin-left: 10px;
+}
+.nav-items{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border: 1.2px solid transparent;
+}
+.nav-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    
+}
+.nav-items ul li{
+    list-style: none;
+    display: inline-block;
+    height: 20px;
+    width: auto;
+    padding: 12px 20px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+    
+}
+li .active, a:hover{
+    color: rgb(30, 255, 0);
+    transition: 0.4s;
+    
+}
